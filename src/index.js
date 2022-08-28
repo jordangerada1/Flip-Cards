@@ -7,9 +7,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App/>
-  </React.StrictMode>
+    <App />
+    // strict mode disabled to prevent double render on axios 
 );
 
 
