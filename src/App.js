@@ -1,5 +1,7 @@
-import React, {useState} from 'react';
+import React, { useState, useEffect } from 'react';
 import Flashcardlist from './Flashcardlist';
+import './app.css' 
+import axios from 'axios';
 
 
 function App() {
@@ -16,15 +18,15 @@ function App() {
 
     {
         id: 1,
-        name: 'tim',
-        age: '22',
-        address: '123 smith street'
+        question: 'where is bob',
+        answer: 'at the pub',
+        options: [ 'back 01', 'back 11']
     },
     {
       id: 2,
-      name: 'bob',
-      age: '26',
-      address: '33 main street'
+      question: 'where is tim',
+      answer: 'at home',
+      options: [ 'back 02', 'back 12']
   }
 
   ]

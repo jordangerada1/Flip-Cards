@@ -1,7 +1,7 @@
 import React from 'react';
 import Flashcard from './Flashcard';
 
-export default function Flashcardlist ( {flashcards}){
+export default function Flashcardlist ({ flashcards }){
 
     return (
         <div className='card-grid'>
